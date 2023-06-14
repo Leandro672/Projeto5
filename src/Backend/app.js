@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const databaseConnection = require("./middlewares/databaseConnection")
+const databaseConnection = require("scr/Backend/middlewares/databaseConnection")
 const hostname = "127.0.0.1";
 const app = express();
 const dotenv = require("dotenv");
@@ -10,16 +10,16 @@ const cors = require('cors');
 app.use(cors());
 app.use(express.static("scr/Frontend/index.html"));
 
-const PORT = process.env.PORT;
+const PORT = 4000;
 
-const registerRoute = require("./routes/register")
-const loginRoute = require("./routes/login");
-const teacherRoute = require("./routes/teacher");
-const classRoute = require("./routes/class");
-const studentRoute = require("./routes/student");
-const lessonsRoute = require("./routes/lessons");
-const studentNotesRoute = require("./routes/studentNotes");
-const studentGradesRoute = require("./routes/studentGrades");
+const registerRoute = require("scr/Backend/routes/register")
+const loginRoute = require("scr/Backend/routes/login");
+const teacherRoute = require("scr/Backend/routes/teacher");
+const classRoute = require("scr/Backend/routes/class");
+const studentRoute = require("scr/Backend/routes/student");
+const lessonsRoute = require("scr/Backend/routes/lessons");
+const studentNotesRoute = require("scr/Backend/routes/studentNotes");
+const studentGradesRoute = require("scr/Backend/routes/studentGrades");
 
 app.use(databaseConnection);
 
