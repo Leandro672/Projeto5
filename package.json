@@ -1,21 +1,25 @@
 {
-  "name": "backend",
+  "name": "workspace",
   "version": "1.0.0",
-  "description": "<p align=\"center\">\r <a href= \"https://www.inteli.edu.br/\"><img src=\"https://www.inteli.edu.br/wp-content/uploads/2021/08/20172028/marca_1-2.png\" alt=\"Inteli - Instituto de Tecnologia e Liderança\" border=\"0\"></a>\r </p>",
+  "description": "<p align=\"center\"> <a href= \"https://www.inteli.edu.br/\"><img src=\"https://www.inteli.edu.br/wp-content/uploads/2021/08/20172028/marca_1-2.png\" alt=\"Inteli - Instituto de Tecnologia e Liderança\" border=\"0\"></a> </p>",
   "main": "src/Backend/app.js",
   "scripts": {
     "start": "node src/Backend/app.js"
   },
-  "dependencies": {
-    "bcrypt": "^5.1.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.1.4",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.0",
-    "sqlite3": "^5.1.6"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farias-77/Projeto5.git"
   },
-  "devDependencies": {},
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farias-77/Projeto5/issues"
+  },
+  "homepage": "https://github.com/farias-77/Projeto5#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2"
+  }
 }
