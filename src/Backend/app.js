@@ -8,7 +8,7 @@ dotenv.config({path: __dirname + "/.env"});
 app.use(express.json());
 const cors = require('cors');
 app.use(cors());
-app.use(express.static("scr/frontend/index.html"));
+app.use(express.static("scr/Frontend/index.html"));
 
 const PORT = process.env.PORT;
 

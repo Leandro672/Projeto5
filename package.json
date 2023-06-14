@@ -2,9 +2,9 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "src/backend/app.js",
+  "main": "src/Backend/app.js",
   "scripts": {
-    "start": "node src/backend/app.js"
+    "start": "node src/Backend/app.js"
   },
   "dependencies": {
     "express": "^4.18.2",
