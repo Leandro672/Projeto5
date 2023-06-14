@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const databaseConnection = require("scr/Backend/middlewares/databaseConnection")
+const databaseConnection = require("scr/Backend/middlewares/databaseConnection.js")
 const hostname = "127.0.0.1";
 const app = express();
 const dotenv = require("dotenv");
